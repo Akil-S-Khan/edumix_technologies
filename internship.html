@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/img/favicon.png" />
+  <title>Edumix Technologies</title>
+  <link rel="stylesheet" href="./assets/css/plugins.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper pt-5 rounded bg-white">
+      <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./index.html">
+              <img style="width: 10%" src="./assets/img/just_logo.png" alt="Edumixtechnologies logo" />
+              <img style="width: 20%" src="./assets/img/Text_logo.png" alt="Edumixtechnologies logo" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas-nav">
+            <div class="offcanvas-header d-lg-none d-xl-none">
+              <a href="./index.html">
+                <img style="width: 20%" src="./assets/img/logo-light.png" alt="Edumixtechnologies logo" />
+                <img style="width: 40%" src="./assets/img/white_Text_logo.png" alt="" /></a>
+              <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close"
+                aria-label="Close"></button>
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="internship.html">Internships</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other ms-lg-4">
+            <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+              <!-- <li class="nav-item d-none d-md-block">
+                  <a
+                    href="#"
+                    class="btn btn-sm btn-primary rounded-pill"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-01"
+                    >Sign In</a
+                  >
+                </li> -->
+              <li class="nav-item d-lg-none">
+                <div class="navbar-hamburger">
+                  <button class="hamburger animate plain" data-toggle="offcanvas-nav">
+                    <span></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
+          <div class="offcanvas-info text-inverse">
+            <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-info-close"
+              aria-label="Close"></button>
+            <a href="./index.html"><img src="./assets/img/logo-light.png" alt="" /></a>
+            <div class="mt-4 widget">
+              <p>Edumixtechnologies</p>
+            </div>
+            <!-- /.widget -->
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Contact Info</h4>
+              <address>
+                Moonshine St. 14/05 <br />
+                Light City, London
+              </address>
+              <a href="mailto:first.last@email.com">info@email.com</a><br />
+              +00 (123) 456 78 90
+            </div>
+            <!-- /.widget -->
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Learn More</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Follow Us</h4>
+              <nav class="nav social social-white">
+                <a href="#"><i class="uil uil-twitter"></i></a>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                <a href="#"><i class="uil uil-dribbble"></i></a>
+                <a href="#"><i class="uil uil-instagram"></i></a>
+                <a href="#"><i class="uil uil-youtube"></i></a>
+              </nav>
+              <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.offcanvas-info -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+      <div class="modal fade" id="modal-01" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+          <div class="modal-content text-center">
+            <div class="modal-body">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h3 class="mb-4">Login to Edumix Technologies</h3>
+              <form class="text-start mb-3">
+                <div class="form-floating mb-4">
+                  <input type="email" class="form-control" placeholder="Email" id="loginEmail" />
+                  <label for="loginEmail">Email</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input type="password" class="form-control" placeholder="Password" id="loginPassword" />
+                  <label for="loginPassword">Password</label>
+                </div>
+                <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Log In</a>
+              </form>
+              <!-- /form -->
+              <p class="mb-1">
+                <a href="#" class="hover">Forgot Password?</a>
+              </p>
+              <p class="mb-0">
+                Don't have an account? <a href="#" class="hover">Sign up</a>
+              </p>
+              <div class="divider-icon my-4">or</div>
+              <nav class="nav social justify-content-center text-center">
+                <a href="#" class="btn btn-circle btn-sm btn-google"><i class="uil uil-google"></i></a>
+                <a href="#" class="btn btn-circle btn-sm btn-facebook-f"><i class="uil uil-facebook-f"></i></a>
+                <a href="#" class="btn btn-circle btn-sm btn-twitter"><i class="uil uil-twitter"></i></a>
+              </nav>
+              <!--/.social -->
+            </div>
+            <!--/.modal-content -->
+          </div>
+          <!--/.modal-body -->
+        </div>
+        <!--/.modal-dialog -->
+      </div>
+      <!--/.modal -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper mx-5 rounded bg-white">
+      <div class="container pt-10 pb-12 pt-md-12 pb-md-17">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-7 mt-lg-n2 text-center text-lg-start order-2 order-lg-0"
+            data-cues="slideInDown" data-group="page-title" data-delay="600">
+            <h1 class="display-1 mx-md-10 mx-lg-0">
+              <strong>Internships</strong>
+            </h1>
+            <p class="lead fs-md mb-5">
+              "At Edumix Technologies, we offer structured internship programs
+              that provide hands-on experience with real projects, modern
+              tools, and industry practices. Interns work alongside
+              experienced professionals in areas like web development, mobile
+              app development, UI/UX design, and more. With dedicated
+              mentorship and exposure to real-time challenges, our program
+              helps bridge the gap between classroom learning and industry
+              demands. Interns also receive a certificate and may be
+              considered for full-time roles based on performance. At Edumix,
+              we don’t just offer internships — we build careers."
+            </p>
+            <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown"
+              data-group="page-title-buttons" data-delay="900">
+              <span><a href="contact.html" class="btn btn-primary btn-lg rounded me-2">Contact Us</a></span>
+              <!-- <span
+                  ><a class="btn btn-lg btn-green rounded">Free Trial</a></span
+                > -->
+            </div>
+          </div>
+          <!-- Adils Changes -->
+          <div class="col-lg-5 text-center">
+            <div class="row">
+              <div data-cue="zoomIn">
+                <div>
+                  <img style="width: 75%" id="mainPhoto" class="img-fluid rounded" src="./assets/img/photos/office.png"
+                    alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Adils Changes -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+
+    <!-- /header -->
+    <section class="wrapper bg-white shadow">
+      <div class="container py-10 py-md-12">
+        <div class="row align-items-center mb-7">
+          <div class="col-md-8 col-lg-8 col-xl-7 col-xxl-6 pe-lg-17">
+            <h2 class="display-4 mb-3">
+              Kickstart Your IT Career with Real-World Internships
+            </h2>
+            <p class="lead fs-lg">
+              Join industry-level internship programs with >hands-on training,
+              live projects, and college collaborations.
+            </p>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="grid grid-view projects-tiles">
+          <div class="project">
+            <div class="row gx-md-8 gx-xl-12 gy-10 gy-md-12 isotope" data-cue="slideInUp">
+              <div class="item col-md-4">
+                <figure class="lift rounded mb-6">
+                  <a href="./single-project3.html">
+                    <img src="./assets/img/internships/enterance.jpeg" alt="" /></a>
+                </figure>
+                <div class="post-category mb-3 text-purple">Entrance</div>
+                <h3 class="post-title">Edumix Technologies Pvt Ltd</h3>
+              </div>
+              <!-- /.item -->
+              <div class="item col-md-4 mt-md-17">
+                <figure class="lift rounded mb-6">
+                  <a href="./single-project2.html">
+                    <img src="./assets/img/internships/class1.jpeg" alt="" /></a>
+                </figure>
+                <div class="post-category mb-3 text-orange">Class Room</div>
+                <h3 class="post-title">Edumix Technologies Pvt Ltd</h3>
+              </div>
+              <!-- /.item -->
+              <div class="item col-md-4">
+                <figure class="lift rounded mb-6">
+                  <a href="./single-project.html">
+                    <img src="./assets/img/internships/class_side.jpeg" alt="" /></a>
+                </figure>
+                <div class="post-category mb-3 text-green">Class Room</div>
+                <h3 class="post-title">Edumix Technologies Pvt Ltd</h3>
+              </div>
+              <!-- /.item -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.project -->
+        </div>
+        <!-- /.projects-tiles -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- !Section -->
+
+    <div class="text-center">
+      <h2 class="display-4 mb-3 mt-5">Internships</h2>
+      <p class="lead fs-lg">
+        Explore Meaningful Internship Opportunities to Ignite Your Career Path
+        with >Mentorship, Growth, and Real-world Experience.
+      </p>
+    </div>
+
+    <section class="wrapper bg-light mt-20">
+      <div class="container pb-14 pb-md-16">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="blog classic-view mt-n17">
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">Demanding</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./java-development.html">Java Development</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>
+                        Java development offers a robust and versatile
+                        ecosystem for building a wide range of software
+                        applications. With its platform independence, strong
+                        typing, and extensive libraries, Java enables
+                        developers to create scalable, reliable, and
+                        cross-platform solutions. Whether developing
+                        enterprise-grade systems, mobile applications, or web
+                        services, Java's object-oriented programming paradigm
+                        provides a solid foundation for building modular and
+                        maintainable codebases. Additionally, Java's vast
+                        community support, mature tooling, and robust security
+                        features contribute to its popularity among developers
+                        and businesses worldwide.
+                      </p>
+                      <figure class="card-img-top overlay overlay1 hover-scale">
+                        <img src="./assets/img/photos/java.png" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                                            <a href="#"
+                                              ><i class="uil uil-heart-alt"></i></a
+                                            >
+                                          </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <!-- /.post -->
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">High Paying Jobs</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./data-analyst-development.html">Data Analyst</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>
+                        Being a data analyst opens up a world of opportunities
+                        characterized by high demand and lucrative rewards.
+                        With a specialized skill set tailored to analyzing and
+                        interpreting complex datasets, data analyst are sought
+                        after across a spectrum of industries. From tech
+                        giants to healthcare innovators and financial
+                        institutions, the need for data-driven decision-making
+                        propels the demand for data analyst. This profession
+                        fosters continuous learning, as the field is
+                        ever-evolving with new technologies and methodologies.
+                      </p>
+                      <figure class="card-img-top overlay overlay1 hover-scale">
+                        <img src="./assets/img/photos/data-analyst.webp" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                                          <a href="#"
+                                            ><i class="uil uil-heart-alt"></i></a
+                                          >
+                                        </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <!-- /.post -->
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">High Paying Jobs</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./data-analyst-development.html">Data Science</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>Data Science is a fast-growing and high-demand field in today’s digital world. This internship
+                        at Edumix Technologies
+                        offers hands-on training in data analysis, visualization, and basic machine learning using
+                        real-world datasets. Interns
+                        work with tools like Python, SQL, and industry-relevant libraries to gain practical, job-ready
+                        skills. With expert
+                        mentorship, live projects, and certification, the program prepares interns for data-driven roles
+                        and potential full-time
+                        opportunities based on performance.</p>
+                      <figure class="card-img-top overlay overlay1 hover-scale">
+                        <img src="./assets/img/internships/dataScience.jpg" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                                                          <a href="#"
+                                                            ><i class="uil uil-heart-alt"></i></a
+                                                          >
+                                                        </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <!-- /.post -->
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">High Paying Jobs</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./data-analyst-development.html">Cloud Computing (AWS | Azure | GCP +
+                          DevOps)</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>
+                        This Cloud Computing internship at Edumix Technologies offers hands-on training on leading
+                        platforms like AWS, Microsoft
+                        Azure, and Google Cloud. Interns learn cloud fundamentals, virtual machines, storage,
+                        networking, security, and
+                        deployment along with DevOps basics such as CI/CD and cloud automation. Through live projects,
+                        real-world scenarios, and
+                        expert mentorship, this program builds job-ready cloud skills and offers certification with
+                        potential full-time
+                        opportunities based on performance.</p>
+                      <figure class="card-img-top overlay overlay1 hover-scale">
+                        <img src="./assets/img/internships/cloudComputing.jpg" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                                                                          <a href="#"
+                                                                            ><i class="uil uil-heart-alt"></i></a
+                                                                          >
+                                                                        </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">Trending</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./mern-development.html">MERN Stack Development</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>
+                        The MERN stack, comprising MongoDB, Express.js,
+                        React.js, and Node.js, provides developers with a
+                        comprehensive toolkit for building dynamic and
+                        scalable web applications. By leveraging JavaScript
+                        across the entire development stack, MERN enables
+                        seamless communication between frontend and backend,
+                        streamlining development processes and enhancing
+                        productivity. With its real-time capabilities, robust
+                        scalability, and extensive community support, the MERN
+                        stack empowers developers to create innovative
+                        solutions tailored to the needs of modern businesses,
+                        fostering agility, efficiency, and competitiveness in
+                        the ever-evolving digital landscape.
+                      </p>
+                      <figure class="card-img-top overlay overlay1 hover-scale d-flex align-items-center ms-4">
+                        <img src="./assets/img/photos/mern_banner.jpg" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                          <a href="#"
+                            ><i class="uil uil-heart-alt"></i></a
+                          >
+                        </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <!-- /.post -->
+
+
+
+              <!-- /.post -->
+
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">High Paying Jobs</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./python-development.html">Python Full Stack</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>
+                        Being a data analyst opens up a world of opportunities
+                        characterized by high demand and lucrative rewards.
+                        With a specialized skill set tailored to analyzing and
+                        interpreting complex datasets, data analyst are sought
+                        after across a spectrum of industries. From tech
+                        giants to healthcare innovators and financial
+                        institutions, the need for data-driven decision-making
+                        propels the demand for data analyst. This profession
+                        fosters continuous learning, as the field is
+                        ever-evolving with new technologies and methodologies.
+                      </p>
+                      <figure class="card-img-top overlay overlay1 hover-scale">
+                        <img src="./assets/img/photos/python.jpg" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                          <a href="#"
+                            ><i class="uil uil-heart-alt"></i></a
+                          >
+                        </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <!-- /.post -->
+
+              <article class="post">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line">
+                        <a href="#" class="hover" rel="category">Popular</a>
+                      </div>
+                      <!-- /.post-category -->
+                      <h2 class="post-title mt-1 mb-0">
+                        <a class="link-dark" href="./frontend-development.html">Frontend Mastery</a>
+                      </h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content d-flex">
+                      <p>
+                        Frontend development involves building the visual and
+                        interactive parts of a website or web application that
+                        users directly engage with, using technologies like
+                        HTML, CSS, and JavaScript along with frameworks such
+                        as React, Angular, and Vue.js. It plays a crucial role
+                        in delivering seamless user experiences, improving
+                        engagement, and ensuring responsive design across
+                        devices. With the growing demand for dynamic and
+                        user-friendly digital interfaces, the future of
+                        frontend development is promising, offering vast
+                        career opportunities and continuous innovation driven
+                        by advancements in web technologies and user
+                        experience trends.
+                      </p>
+                      <figure class="card-img-top overlay overlay1 hover-scale ms-5">
+                        <img src="./assets/img/photos/react_banner.png" alt="" />
+                      </figure>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!--/.card-body -->
+                  <div class="card-footer">
+                    <ul class="post-meta d-flex mb-0">
+                      <li class="post-author">
+                        <a href="#"><i class="uil uil-user"></i><span>By Edumix Technologies</span></a>
+                      </li>
+
+                      <!-- <li class="post-likes ms-auto">
+                          <a href="#"
+                            ><i class="uil uil-heart-alt"></i></a
+                          >
+                        </li> -->
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+              </article>
+              <!-- /.post -->
+            </div>
+            <!-- /.blog -->
+
+            <!-- /.blog -->
+
+            <!-- /nav -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+
+  <!-- /.content-wrapper -->
+  <footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-3 col-lg-3">
+          <div class="widget">
+            <img style="width: 20%" src="./assets/img/logo-light.png" alt="" />
+            <img style="width: 40%" src="./assets/img/white_Text_logo.png" alt="" />
+            <p class="mb-4">
+              Edumix Technologies Pvt Ltd is a top software company in Nagpur
+              offering website & mobile app development, CRM/ERP solutions,
+              and the best IT internships with real-world training for
+              students.
+            </p>
+
+            <!-- /.social-->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-3 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-5 pe-xxl-5">
+              The Don, 2nd Floor, Building No 236/B , Opposite of Nagpur
+              Residential School Sadar, Nagpur, Maharashtra, India - 440001
+            </address>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-4">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Contact us</h4>
+            <div>Adil Ahmed</div>
+            <a href="mailto:adilahmedofficial0000@gmail.com">adil.ahmed@edumixtechnologies.com</a><br />
+            +91 86009 48978<br />
+            <hr class="p-0 my-2" />
+            <div>Akil Khan</div>
+            <a href="mailto:akilk8515@gmail.com">akil.khan@edumixtechnologies.com</a><br />
+            +91 98503 19268<br />
+            <hr class="p-0 my-2" />
+            <div>Arif Ahmed</div>
+            <a href="mailto:akilk8515@gmail.com">arif.ahmed@edumixtechnologies.com</a><br />
+            +91 99218 53159<br />
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-2 col-lg-2 d-flex">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <!--/.row -->
+        <hr class="mt-4 mt-md-7 mb-4" />
+        <div class="d-md-flex align-items-center justify-content-between">
+          <p class="mb-2 mb-lg-0">
+            © 2024 Edumix Technologies Private Limited. All rights reserved.
+          </p>
+          <nav class="nav social social-white text-md-end">
+            <a href="https://www.linkedin.com/company/edumix-technologies-pvt-ltd">
+              <i class="uil uil-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61574819407083"><i class="uil uil-facebook-f"></i></a>
+            <a href="https://www.instagram.com/edumix.technologies/"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.youtube.com/@user-ms7ou2eb8f"><i class="uil uil-youtube"></i></a>
+          </nav>
+          <!-- /.social -->
+        </div>
+        <!-- /div -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>

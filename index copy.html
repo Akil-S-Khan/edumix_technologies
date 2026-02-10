@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+    <title>Edumix Technologies</title>
+    <link rel="stylesheet" href="./assets/css/plugins.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="preload"
+      href="./assets/css/fonts/dm.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+  </head>
+
+  <body>
+    <div class="content-wrapper">
+      <header class="wrapper bg-soft-primary">
+        <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+          <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand w-100">
+              <a href="./index.html">
+                <img
+                  style="width: 15%"
+                  src="./assets/img/logo.png"
+                  alt="Edumixtechnologies logo"
+                />
+                <img
+                  style="width: 25%"
+                  src="./assets/img/Text_logo.png"
+                  alt="Edumixtechnologies logo"
+                />
+              </a>
+            </div>
+            <div class="navbar-collapse offcanvas-nav">
+              <div class="offcanvas-header d-lg-none d-xl-none">
+                <a href="./index.html"
+                  ><img src="./assets/img/logo-light.png" alt=""
+                /></a>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white offcanvas-close offcanvas-nav-close"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="internship.html">Internships</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+            <div class="navbar-other ms-lg-4">
+              <ul
+                class="navbar-nav flex-row align-items-center ms-auto"
+                data-sm-skip="true"
+              >
+                <li class="nav-item d-none d-md-block">
+                  <a
+                    href="#"
+                    class="btn btn-sm btn-primary rounded-pill"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-01"
+                    >Sign In</a
+                  >
+                </li>
+                <li class="nav-item d-lg-none">
+                  <div class="navbar-hamburger">
+                    <button
+                      class="hamburger animate plain"
+                      data-toggle="offcanvas-nav"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-other -->
+            <div class="offcanvas-info text-inverse">
+              <button
+                type="button"
+                class="btn-close btn-close-white offcanvas-close offcanvas-info-close"
+                aria-label="Close"
+              ></button>
+              <a href="./index.html"
+                ><img src="./assets/img/logo-light.png" alt=""
+              /></a>
+              <div class="mt-4 widget">
+                <p>Edumixtechnologies</p>
+              </div>
+              <!-- /.widget -->
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">Contact Info</h4>
+                <address>
+                  Moonshine St. 14/05 <br />
+                  Light City, London
+                </address>
+                <a href="mailto:first.last@email.com">info@email.com</a><br />
+                +00 (123) 456 78 90
+              </div>
+              <!-- /.widget -->
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">Learn More</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <!-- /.widget -->
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">Follow Us</h4>
+                <nav class="nav social social-white">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                  <a href="#"><i class="uil uil-dribbble"></i></a>
+                  <a href="#"><i class="uil uil-instagram"></i></a>
+                  <a href="#"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
+              </div>
+              <!-- /.widget -->
+            </div>
+            <!-- /.offcanvas-info -->
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- /.navbar -->
+        <div class="modal fade" id="modal-01" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content text-center">
+              <div class="modal-body">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <h3 class="mb-4">Login to Edumix Technologies</h3>
+                <form class="text-start mb-3">
+                  <div class="form-floating mb-4">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email"
+                      id="loginEmail"
+                    />
+                    <label for="loginEmail">Email</label>
+                  </div>
+                  <div class="form-floating mb-4">
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Password"
+                      id="loginPassword"
+                    />
+                    <label for="loginPassword">Password</label>
+                  </div>
+                  <a class="btn btn-primary rounded-pill btn-login w-100 mb-2"
+                    >Log In</a
+                  >
+                </form>
+                <!-- /form -->
+                <p class="mb-1">
+                  <a href="#" class="hover">Forgot Password?</a>
+                </p>
+                <p class="mb-0">
+                  Don't have an account? <a href="#" class="hover">Sign up</a>
+                </p>
+                <div class="divider-icon my-4">or</div>
+                <nav class="nav social justify-content-center text-center">
+                  <a href="#" class="btn btn-circle btn-sm btn-google"
+                    ><i class="uil uil-google"></i
+                  ></a>
+                  <a href="#" class="btn btn-circle btn-sm btn-facebook-f"
+                    ><i class="uil uil-facebook-f"></i
+                  ></a>
+                  <a href="#" class="btn btn-circle btn-sm btn-twitter"
+                    ><i class="uil uil-twitter"></i
+                  ></a>
+                </nav>
+                <!--/.social -->
+              </div>
+              <!--/.modal-content -->
+            </div>
+            <!--/.modal-body -->
+          </div>
+          <!--/.modal-dialog -->
+        </div>
+        <!--/.modal -->
+      </header>
+      <!-- /header -->
+      <section class="wrapper bg-soft-primary">
+        <div class="container pt-10 pb-12 pt-md-14 pb-md-17">
+          <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+            <div
+              class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 mt-lg-n2 text-center text-lg-start order-2 order-lg-0"
+              data-cues="slideInDown"
+              data-group="page-title"
+              data-delay="600"
+            >
+              <h1 class="display-1 mb-5 mx-md-10 mx-lg-0">
+                We Provide Customised Solution for
+                <span
+                  class="typer text-primary text-nowrap"
+                  data-delay="100"
+                  data-words="Websites,Mobile Apps,Softwares,Mobile Apps,Admin Panels,Every Need,"
+                ></span
+                ><span class="cursor text-primary" data-owner="typer"></span>
+              </h1>
+              <p class="lead fs-md mb-5">
+                "Welcome to Edumix Technologies Private Limited, a leading IT
+                solutions provider based in India, serving clients across the
+                globe. Specializing in custom software development, mobile app
+                creation, website design, and secure admin panels, we deliver
+                innovative IT solutions tailored to meet the needs of businesses
+                both in India and worldwide. Our expert team is dedicated to
+                transforming your ideas into reality, ensuring seamless digital
+                transformation for startups and enterprises alike. Whether
+                you're in Mumbai, New York, or London, partner with us for
+                reliable, scalable, and cutting-edge technology solutions that
+                drive success in today’s competitive market."
+              </p>
+              <div
+                class="d-flex justify-content-center justify-content-lg-start"
+                data-cues="slideInDown"
+                data-group="page-title-buttons"
+                data-delay="900"
+              >
+                <span
+                  ><a
+                    href="contact.html"
+                    class="btn btn-primary btn-lg rounded me-2"
+                    >Contact Us</a
+                  ></span
+                >
+                <!-- <span
+                  ><a class="btn btn-lg btn-green rounded">Free Trial</a></span
+                > -->
+              </div>
+            </div>
+            <!-- /column /////////////////////////////////////Changes Here///////////////////////////////////////////////////////////// -->
+            <!-- <div class="col-lg-5">
+              <div class="row">
+                <div
+                  class="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column"
+                  data-cues="zoomIn"
+                  data-group="col-start"
+                  data-delay="300"
+                >
+                  <div class="ms-auto mt-auto">
+                    <img
+                      class="img-fluid rounded shadow-lg"
+                      src="./assets/img/photos/mongodb_banner.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ms-auto mt-5 mb-10">
+                    <img
+                      class="img-fluid rounded shadow-lg"
+                      src="./assets/img/photos/react_banner.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-4 col-lg-5" data-cue="zoomIn">
+                  <div>
+                    <img
+                      class="w-100 img-fluid rounded shadow-lg"
+                      src="./assets/img/photos/main_banner.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-3 d-flex flex-column"
+                  data-cues="zoomIn"
+                  data-group="col-end"
+                  data-delay="300"
+                >
+                  <div class="mt-auto">
+                    <img
+                      class="img-fluid rounded shadow-lg"
+                      src="./assets/img/photos/git_banner.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mt-5">
+                    <img
+                      class="img-fluid rounded shadow-lg"
+                      src="./assets/img/photos/nodejs_banner.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mt-5 mb-10">
+                    <img
+                      class="img-fluid rounded shadow-lg"
+                      src="./assets/img/photos/express_banner.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- /column /////////////////////////////////////Changes Here/////////////////////////////////////////////////////////////-->
+            <!-- Adils Changes -->
+            <div class="col-lg-6">
+              <div class="row">
+                <div data-cue="zoomIn">
+                  <div>
+                    <img
+                      id="mainPhoto"
+                      class="w-100 img-fluid rounded"
+                      src="./assets/img/photos/admin_Panel.avif"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Adils Changes -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-light">
+        <div class="container py-14 pt-md-17 pb-md-25">
+          <h2 class="fs-15 text-uppercase text-muted text-center mb-8">
+            Trusted by Multiple Clients
+          </h2>
+          <div class="px-lg-5 mb-14 mb-md-19">
+            <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
+              <div class="col-4 col-md-2">
+                <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
+                  <img src="./assets/img/brands/c1.png" alt="Flux" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col-4 col-md-2">
+                <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
+                  <img src="./assets/img/brands/c2.webp" alt="petrozone" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col-4 col-md-2">
+                <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
+                  <img src="./assets/img/brands/c3.png" alt="townsmart" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col-4 col-md-2">
+                <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
+                  <img src="./assets/img/brands/c4.png" alt="raileat" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col-4 col-md-2">
+                <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
+                  <img src="./assets/img/brands/c5.png" alt="esaleswiz" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col-4 col-md-2">
+                <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
+                  <img src="./assets/img/brands/c6.png" alt="digitalnweb" />
+                </figure>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /div -->
+          <div class="row">
+            <div
+              class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center"
+            >
+              <h2 class="fs-15 text-uppercase text-muted mb-3">
+                Why Choose Us?
+              </h2>
+              <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">
+                Here are a few reasons why our customers choose us.
+              </h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <ul
+            class="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-row active"
+                data-bs-toggle="tab"
+                href="#tab2-1"
+              >
+                <div>
+                  <img
+                    src="./assets/img/icons/rocket.svg"
+                    class="svg-inject icon-svg icon-svg-md text-yellow me-4"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="mb-1">Indepth Concept Clarification</h4>
+                  <p>
+                    We provide best content about topics required for job
+                    standards.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-row"
+                data-bs-toggle="tab"
+                href="#tab2-2"
+              >
+                <div>
+                  <img
+                    src="./assets/img/icons/savings.svg"
+                    class="svg-inject icon-svg icon-svg-md text-green me-4"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="mb-1">Live Projects</h4>
+                  <p>
+                    We make our students work on live projects so they can
+                    actually understand market standards .
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-row"
+                data-bs-toggle="tab"
+                href="#tab2-3"
+              >
+                <div>
+                  <img
+                    src="./assets/img/icons/shield.svg"
+                    class="svg-inject icon-svg icon-svg-md text-red me-4"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="mb-1">Experienced Faculties</h4>
+                  <p>
+                    Our teachers are well experienced about complex concepts as
+                    well as related technology .
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- /.nav-tabs -->
+          <div class="tab-content mt-6 mt-lg-8 mb-md-11">
+            <div class="tab-pane fade show active" id="tab2-1">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6">
+                  <div class="row gx-md-5 gy-5 align-items-center">
+                    <div>
+                      <img
+                        class="img-fluid rounded shadow-lg ms-auto h-25"
+                        src="./assets/img/photos/concept.jpg"
+                        alt=""
+                      />
+                    </div>
+
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <h2 class="mb-3">Indepth Concept Clarification</h2>
+                  <p>
+                    In our internship course, we prioritize delivering
+                    comprehensive and thorough concept clarification to ensure
+                    interns gain a deep understanding of the subjects they
+                    encounter. Through a blend of theoretical insights and
+                    practical applications, we offer an immersive learning
+                    experience aimed at solidifying foundational knowledge and
+                    fostering critical thinking skills. Our approach goes beyond
+                    surface-level understanding, delving into the intricacies of
+                    each concept to empower interns to apply their learning
+                    effectively in real-world scenarios. By emphasizing in-depth
+                    concept clarification, we equip interns with the tools and
+                    insights necessary to excel in their respective fields and
+                    make meaningful contributions to their future endeavors.
+                  </p>
+
+                  <a href="#" class="btn btn-yellow mt-2">Learn More</a>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+            <div class="tab-pane fade" id="tab2-2">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                  <div class="row gx-md-5 gy-5">
+                    <div>
+                      <img
+                        class="img-fluid rounded shadow-lg my-5 d-flex ms-auto"
+                        src="./assets/img/photos/coding.jpg"
+                        alt=""
+                      />
+                    </div>
+
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <h2 class="mb-3">Live Projects</h2>
+                  <p>
+                    In our internship course, we prioritize hands-on learning
+                    through live projects, providing interns with invaluable
+                    opportunities to apply their knowledge in real-world
+                    settings. These projects are carefully curated to simulate
+                    authentic industry scenarios, allowing interns to tackle
+                    challenges, collaborate with peers, and gain practical
+                    experience under the guidance of seasoned professionals. By
+                    working on live projects, interns not only enhance their
+                    technical skills but also develop crucial soft skills such
+                    as communication, problem-solving, and teamwork. Moreover,
+                    these projects offer a platform for interns to showcase
+                    their creativity, initiative, and ability to deliver results
+                    in a dynamic and fast-paced environment. Through our
+                    commitment to offering live projects, we ensure that interns
+                    graduate with the confidence and competence to excel in
+                    their chosen fields.
+                  </p>
+
+                  <a href="#" class="btn btn-green mt-2">Learn More</a>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+            <div class="tab-pane fade" id="tab2-3">
+              <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6">
+                  <div class="row gx-md-5 gy-5">
+                    <div>
+                      <img
+                        class="img-fluid rounded shadow-lg mb-5"
+                        src="./assets/img/photos/teacher.jpg"
+                        alt=""
+                      />
+                    </div>
+
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <h2 class="mb-3">Experienced Faculties</h2>
+                  <p>
+                    In our internship course, we take pride in our team of
+                    experienced and dedicated faculty members who bring a wealth
+                    of knowledge and expertise to the table. Each faculty member
+                    is carefully selected based on their industry experience,
+                    academic credentials, and passion for mentoring the next
+                    generation of professionals. With years of practical
+                    experience in their respective fields, our faculty members
+                    not only possess deep subject matter expertise but also
+                    understand the evolving demands of the industry. They are
+                    committed to providing personalized guidance, insightful
+                    feedback, and mentorship tailored to the needs of each
+                    intern. Through their guidance, interns have the opportunity
+                    to learn from real-world examples, gain insider insights,
+                    and develop the skills necessary to thrive in today's
+                    competitive job market.
+                  </p>
+                  <!-- <ul class="icon-list bullet-bg bullet-soft-red">
+                    <li>
+                      <i class="uil uil-check"></i>Aenean eu leo quam.
+                      Pellentesque ornare.
+                    </li>
+                    <li>
+                      <i class="uil uil-check"></i>Nullam quis risus eget urna
+                      mollis ornare.
+                    </li>
+                    <li>
+                      <i class="uil uil-check"></i>Donec id elit non mi porta
+                      gravida at eget.
+                    </li>
+                  </ul> -->
+                  <a href="#" class="btn btn-red mt-2">Learn More</a>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/.tab-pane -->
+          </div>
+          <!-- /.tab-content -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-soft-primary">
+        <div class="container py-14 py-md-17">
+          <div class="row mt-md-n25">
+            <div
+              class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center"
+            >
+              <h2 class="fs-15 text-uppercase text-muted mb-3">
+                Happy Customers
+              </h2>
+              <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">
+                Don't take our word for it. See what customers are saying about
+                us.
+              </h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="grid">
+            <div class="row isotope gy-6">
+              <div class="item col-md-6 col-xl-4">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <span class="ratings five mb-3"></span>
+                    <blockquote class="icon mb-0">
+                      <p>“Nothing , Just Awesome nothing else.”</p>
+                      <div class="blockquote-details">
+                        <div class="info">
+                          <h5 class="mb-1">Abhay Zingre</h5>
+                          <p class="mb-0">Engineering Student</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="item col-md-6 col-xl-4">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <span class="ratings five mb-3"></span>
+                    <blockquote class="icon mb-0">
+                      <p>
+                        “The work on the live project helps a lot to understand
+                        concepts more easily.”
+                      </p>
+                      <div class="blockquote-details">
+                        <div class="info">
+                          <h5 class="mb-1">Syed Majid</h5>
+                          <p class="mb-0">Engineering Student</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="item col-md-6 col-xl-4">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <span class="ratings five mb-3"></span>
+                    <blockquote class="icon mb-0">
+                      <p>
+                        “One of the best course I have ever seen in the market
+                        within this price range.”
+                      </p>
+                      <div class="blockquote-details">
+                        <div class="info">
+                          <h5 class="mb-1">Abdul Rahman</h5>
+                          <p class="mb-0">Java Developer</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="item col-md-6 col-xl-4">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <span class="ratings five mb-3"></span>
+                    <blockquote class="icon mb-0">
+                      <p>
+                        “After completion of course it is very easy to get
+                        placed.”
+                      </p>
+                      <div class="blockquote-details">
+                        <div class="info">
+                          <h5 class="mb-1">Aniket Sharma</h5>
+                          <p class="mb-0">EXTC Student</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="item col-md-6 col-xl-4">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <span class="ratings five mb-3"></span>
+                    <blockquote class="icon mb-0">
+                      <p>“Best one could find in the market.”</p>
+                      <div class="blockquote-details">
+                        <div class="info">
+                          <h5 class="mb-1">Umair Ahmed</h5>
+                          <p class="mb-0">BDS Student</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="item col-md-6 col-xl-4">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <span class="ratings five mb-3"></span>
+                    <blockquote class="icon mb-0">
+                      <p>“Helped me get a job, Thanks a lot Edumix”</p>
+                      <div class="blockquote-details">
+                        <div class="info">
+                          <h5 class="mb-1">Ayush Bhivgade</h5>
+                          <p class="mb-0">Student</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.grid-view -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- new section -->
+      <section id="process">
+        <div class="wrapper bg-soft-primary pb-4">
+          <div class="container">
+            <!--/.row -->
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="col-lg-7 order-lg-2">
+                <figure>
+                  <img
+                    class="img-fluid rounded shadow-lg ms-auto h-25"
+                    src="./assets/img/photos/teacher.jpg"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col-lg-5">
+                <h2 class="fs-15 text-uppercase text-line text-primary mb-3">
+                  Why Choose Us?
+                </h2>
+                <h3 class="display-5 mb-7">
+                  A few reasons why our valued customers choose us.
+                </h3>
+                <div class="accordion accordion-wrapper" id="accordionExample">
+                  <div class="card plain accordion-item">
+                    <div class="card-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Professional Design
+                      </button>
+                    </div>
+                    <!--/.card-header -->
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                          condimentum nibh, ut fermentum massa justo sit amet
+                          risus. Cras mattis consectetur purus sit amet
+                          fermentum. Praesent commodo cursus magna, vel.
+                        </p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card plain accordion-item">
+                    <div class="card-header" id="headingTwo">
+                      <button
+                        class="collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Top-Notch Support
+                      </button>
+                    </div>
+                    <!--/.card-header -->
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                          condimentum nibh, ut fermentum massa justo sit amet
+                          risus. Cras mattis consectetur purus sit amet
+                          fermentum. Praesent commodo cursus magna, vel.
+                        </p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card plain accordion-item">
+                    <div class="card-header" id="headingThree">
+                      <button
+                        class="collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Header and Slider Options
+                      </button>
+                    </div>
+                    <!--/.card-header -->
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                          condimentum nibh, ut fermentum massa justo sit amet
+                          risus. Cras mattis consectetur purus sit amet
+                          fermentum. Praesent commodo cursus magna, vel.
+                        </p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
+                </div>
+                <!--/.accordion -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.wrapper -->
+      </section>
+      <!-- End of new Section -->
+
+      <!-- /section -->
+      <section class="wrapper bg-light">
+        <div class="container py-14 py-md-17">
+          <div
+            class="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-19"
+          >
+            <div
+              class="col-md-8 col-lg-6 position-relative light-gallery-wrapper"
+            >
+              <div
+                class="shape rounded bg-soft-primary rellax d-md-block"
+                data-rellax-speed="0"
+                style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%"
+              ></div>
+              <figure class="rounded" style="width: 80%">
+                <img src="./assets/img/photos/success.jpg" alt="" />
+              </figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-5 col-xl-4 offset-lg-1">
+              <h2 class="fs-15 text-uppercase text-muted mb-3">
+                How It Works?
+              </h2>
+              <h3 class="display-4 mb-7">
+                Here are the 3 working steps on success.
+              </h3>
+              <div class="d-flex flex-row mb-5">
+                <div>
+                  <img
+                    src="./assets/img/icons/shield.svg"
+                    class="svg-inject icon-svg icon-svg-md text-yellow me-5"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="mb-1">Learn the Concept</h4>
+                  <p class="mb-0">
+                    Understand the complete course with our experienced
+                    faculties.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row mb-5">
+                <div>
+                  <img
+                    src="./assets/img/icons/savings.svg"
+                    class="svg-inject icon-svg icon-svg-md text-green me-5"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="mb-1">Work on Live Projects</h4>
+                  <p class="mb-0">
+                    Work on live projects and gain client standard experience.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row">
+                <div>
+                  <img
+                    src="./assets/img/icons/loading.svg"
+                    class="svg-inject icon-svg icon-svg-md text-red me-5"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="mb-1">Get Certified / Placed</h4>
+                  <p class="mb-0">
+                    Get internship / experience certificate as per the
+                    requirement.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row gy-4 align-items-center justify-content-between">
+            <div class="col-lg-4">
+              <h2 class="fs-15 text-uppercase text-muted mb-3">Our Course</h2>
+              <h3 class="display-4 mb-5">
+                We offer great and premium content within minimal prices.
+              </h3>
+              <p>
+                Our premium courses offer unparalleled value beyond their price
+                tags. They provide expert knowledge, personalized feedback,
+                interactive learning, and a supportive community. While they may
+                seem costly, the return on investment in terms of knowledge,
+                skills, and opportunities makes them worthwhile. Ultimately,
+                it's about prioritizing quality education over monetary
+                concerns.
+              </p>
+              <p class="mb-5">
+                Enjoy <a href="contact.html" class="hover">demo classes</a> and
+                experience the full service. No fees required for demo classes!
+              </p>
+              <a href="internship.html" class="btn btn-primary rounded mt-2"
+                >See All Courses</a
+              >
+            </div>
+
+            <!--/column -->
+            <div class="col-lg-5 pricing-wrapper">
+              <div class="popular">
+                <div class="pricing card shadow-lg">
+                  <div class="card-body pb-4">
+                    <!--/.prices -->
+                    <h1 class="card-title mt-2">MERN Stack Development</h1>
+                    <ul
+                      class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9"
+                    >
+                      <li>
+                        <i class="uil uil-check"></i><span>HTML 5 & CSS</span>
+                      </li>
+                      <li>
+                        <i class="uil uil-check"></i><span>BootStrap</span>
+                      </li>
+                      <li>
+                        <i class="uil uil-check"></i><span>JavaScript</span>
+                      </li>
+                      <li><i class="uil uil-check"></i><span>ReactJS</span></li>
+                      <li>
+                        <i class="uil uil-check"></i
+                        ><span>NodeJS & ExpressJS</span>
+                      </li>
+                      <li><i class="uil uil-check"></i><span>MongoDB</span></li>
+                      <li><i class="uil uil-check"></i><span>DSA</span></li>
+                      <li>
+                        <i class="uil uil-check"></i
+                        ><span> Daily Tasks on Each Concepts</span>
+                      </li>
+                      <li>
+                        <i class="uil uil-check"></i><span> Live Projects</span>
+                      </li>
+                      <li>
+                        <i class="uil uil-check"></i
+                        ><span> Internship/Experience Certificate</span>
+                      </li>
+                    </ul>
+                    <a href="insta.html" class="btn btn-primary rounded"
+                      >Enroll Now</a
+                    >
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-soft-primary">
+        <div class="container py-14 py-md-17">
+          <div class="row">
+            <div class="col-lg-11 col-xxl-10 mx-auto text-center">
+              <h2 class="fs-15 text-uppercase text-muted mb-3">FAQ</h2>
+              <h3 class="display-4 mb-10 px-lg-12 px-xl-10 px-xxl-15">
+                If you don't see an answer to your question, you can send us an
+                email from our contact form.
+              </h3>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+              <div id="accordion-3" class="accordion-wrapper">
+                <div class="card shadow-lg">
+                  <div class="card-header" id="accordion-heading-3-1">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-3-1"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-3-1"
+                    >
+                      Will I be able to freelance after the completion of
+                      course?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-3-1"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-3-1"
+                    data-bs-target="#accordion-3"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Yes , You definitely could do free lancing work after
+                        the completion of course as we will make you work on
+                        live projects based on market standards so that you have
+                        a broad vision of how things work in the corporate
+                        world.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card shadow-lg">
+                  <div class="card-header" id="accordion-heading-3-2">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-3-2"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-3-2"
+                    >
+                      Are there any demo classes for new joiners?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-3-2"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-3-2"
+                    data-bs-target="#accordion-3"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Yes , there are demo classes which are completely FREE,
+                        so you dont have to worry about any payments related
+                        stuff. Pay only when you are satisfied with the
+                        teaching.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card shadow-lg">
+                  <div class="card-header" id="accordion-heading-3-3">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-3-3"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-3-3"
+                    >
+                      Do I have to pay the entire fees at once?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-3-3"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-3-3"
+                    data-bs-target="#accordion-3"
+                  >
+                    <div class="card-body">
+                      <p>
+                        No, you can pay the fees with installments but not more
+                        than 3 installments. Also you have to pay almost 50% of
+                        the fees during admission.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card shadow-lg">
+                  <div class="card-header" id="accordion-heading-3-4">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-3-4"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-3-4"
+                    >
+                      How can I join the classes?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-3-4"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-3-4"
+                    data-bs-target="#accordion-3"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You simply can just call us, else drop a mail at email
+                        address given below.<br />
+                      </p>
+                      <a href="mailto:#">akilk8515@gmail.com</a><br />
+                      +91 98503 19268<br />
+                      <a href="mailto:#">adilahmedofficial0000@gmail.com</a
+                      ><br />
+                      +91 8600948978<br />
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.accordion-wrapper -->
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="bg-dark text-inverse">
+      <div class="container py-13 py-md-15">
+        <div class="row gy-6 gy-lg-0">
+          <div class="col-md-4 col-lg-4">
+            <div class="widget">
+              <img
+                style="width: 20%"
+                src="./assets/img/logo-light.png"
+                alt=""
+              />
+              <img
+                style="width: 40%"
+                src="./assets/img/white_Text_logo.png"
+                alt=""
+              />
+              <p class="mb-4">
+                © Edumix Technologies Pvt Ltd.
+                <br class="d-none d-lg-block" />All rights reserved.
+              </p>
+              <!-- <nav class="nav social social-white">
+                <a href="#"><i class="uil uil-twitter"></i></a>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                <a href="#"><i class="uil uil-dribbble"></i></a>
+                <a href="#"><i class="uil uil-instagram"></i></a>
+                <a href="#"><i class="uil uil-youtube"></i></a>
+              </nav> -->
+              <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-4 col-lg-4">
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+              <address class="pe-xl-15 pe-xxl-17">
+                Besides Kerala Store, Residency Road, Sadar, Nagpur, 440001
+              </address>
+              <a href="mailto:akilk8515@gmail.com">akilk8515@gmail.com</a><br />
+              +91 98503 19268<br />
+              <a href="mailto:adilahmedofficial0000@gmail.com"
+                >adilahmedofficial0000@gmail.com</a
+              ><br />
+              +91 8600948978<br />
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-4 col-lg-4">
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Learn More</h4>
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/theme.js"></script>
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>
